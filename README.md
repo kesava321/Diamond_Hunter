@@ -1,0 +1,1 @@
+This is the frist commit to DiamondHunter Coursework 2.
