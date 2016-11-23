@@ -5,7 +5,7 @@
 package com.neet.DiamondHunter.Main;
 
 import javax.swing.JFrame;
-
+//Test commit 1 - intelliJ - kesava
 public class Game {
 	
 	public static void main(String[] args) {
