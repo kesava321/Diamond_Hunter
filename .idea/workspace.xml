@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5118ac04-8fc7-4df1-b4e6-6fcf3161629e" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/sample/Controller.java" afterPath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/Map/Controller.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/sample/Main.java" afterPath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/Map/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/sample/sample.fxml" afterPath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/Map/mapviewer.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MapViewerFX/.idea/workspace.xml" afterPath="$PROJECT_DIR$/MapViewerFX/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/sample/Main.java" afterPath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/sample/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -691,12 +693,12 @@
       <workItem from="1480011364438" duration="3471000" />
       <workItem from="1480020643864" duration="684000" />
       <workItem from="1480162196461" duration="1303000" />
-      <workItem from="1480180992022" duration="1037000" />
+      <workItem from="1480180992022" duration="1405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16666000" />
+    <option name="totallyTimeSpent" value="17034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="576" y="0" width="796" height="744" extended-state="0" />

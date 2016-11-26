@@ -1,4 +1,4 @@
-package sample;
+package Map;
 
 public class Controller {
 }
