@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5118ac04-8fc7-4df1-b4e6-6fcf3161629e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MapViewerFX/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MapViewerFX/.idea/workspace.xml" afterPath="$PROJECT_DIR$/MapViewerFX/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/Map/Controller.java" afterPath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/Map/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/Map/mapviewer.fxml" afterPath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/Map/mapviewer.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -686,16 +686,16 @@
       <workItem from="1480020643864" duration="684000" />
       <workItem from="1480162196461" duration="1303000" />
       <workItem from="1480180992022" duration="1405000" />
-      <workItem from="1480266203196" duration="716000" />
+      <workItem from="1480266203196" duration="1109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17750000" />
+    <option name="totallyTimeSpent" value="18143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="576" y="0" width="796" height="744" extended-state="1" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
