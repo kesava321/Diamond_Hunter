@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1204bff5-7b71-4eb2-9e3d-87dd9ad788e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MapViewer/src/Map/Controller.java" afterPath="$PROJECT_DIR$/MapViewer/src/Map/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MapViewer/src/Map/mapviewer.fxml" afterPath="$PROJECT_DIR$/MapViewer/src/Map/mapviewer.fxml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +26,8 @@
             <state relative-caret-position="0">
               <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="false" />
+                <element signature="e#1081#1082#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -597,12 +596,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480181058041</updated>
       <workItem from="1480181059824" duration="1713000" />
-      <workItem from="1480266436778" duration="1329000" />
+      <workItem from="1480266436778" duration="2526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3042000" />
+    <option name="totallyTimeSpent" value="4239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="580" y="0" width="792" height="744" extended-state="0" />
@@ -658,7 +657,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="false" />
+            <element signature="e#1081#1082#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -687,7 +687,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="false" />
+            <element signature="e#1081#1082#0" expanded="false" />
           </folding>
         </state>
       </provider>
