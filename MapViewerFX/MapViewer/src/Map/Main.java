@@ -40,7 +40,14 @@ public class Main extends Application {
           }
       }
 
+      catch(IOException e)
+      {
 
+
+      }
+      int width = tempLayout.get(0).size();
+      int height =
+      return layer
   }
 
 
