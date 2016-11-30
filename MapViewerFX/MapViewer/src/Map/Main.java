@@ -8,26 +8,42 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-    @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("mapviewer.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
-        primaryStage.show();
+  public static TileLayer FromFile (String fileName)
+  {
+      TileLayer layer = null;
 
-        try {
-            BorderPane root = new BorderPane();
-            Scene scene = new Scene(root,600,600);
-            scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-            Parent content = FXMLLoader.load(getClass().getClassLoader().getResource("mapviewer.fxml"));
-            root.setCenter(content);
+      ArrayList<ArrayList<Integer>> tempLayout = new ArrayList<>();
 
-            primaryStage.setScene(scene);
-            primaryStage.show();
-        } catch(Exception e) {
-            e.printStackTrace();
-        }
-    }
+      try(BufferReader br = new BufferReader(new FileReader(fileName)))
+      {
+            String currentLine;
+
+            while(currentLine=br.readLine()) != null)
+          {
+              if (currentLine.isEmpty())
+                  continue;
+
+              ArrayList<Integer> row = new ArrayList<>();
+              String[] values = currentLine.trim(). split("");
+
+              for (String string :values)
+              {
+                  if(!string.isEmpty())
+                  {
+                      int id = Integer.parseInt(string);
+
+                      row.add(id);
+                  }
+              }
+
+              tempLayout.add(row)
+          }
+      }
+
+
+  }
+
+
 
 
     public static void main(String[] args) {
