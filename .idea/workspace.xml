@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5118ac04-8fc7-4df1-b4e6-6fcf3161629e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MapViewerFX/.idea/workspace.xml" afterPath="$PROJECT_DIR$/MapViewerFX/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/Map/Main.java" afterPath="$PROJECT_DIR$/MapViewerFX/MapViewer/src/Map/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +35,8 @@
       <file leaf-file-name="TileMap.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DiamondHunter/src/com/neet/DiamondHunter/TileMap/TileMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="120" column="57" lean-forward="false" selection-start-line="120" selection-start-column="57" selection-end-line="120" selection-end-column="57" />
+            <state relative-caret-position="277">
+              <caret line="104" column="38" lean-forward="false" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -110,10 +110,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1378" />
-    <option name="height" value="744" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -718,15 +717,15 @@
       <workItem from="1480505164281" duration="634000" />
       <workItem from="1480507994745" duration="796000" />
       <workItem from="1480531628236" duration="115000" />
-      <workItem from="1480531792241" duration="2704000" />
+      <workItem from="1480531792241" duration="3337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24012000" />
+    <option name="totallyTimeSpent" value="24645000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1124,8 +1123,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DiamondHunter/src/com/neet/DiamondHunter/TileMap/TileMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="120" column="57" lean-forward="false" selection-start-line="120" selection-start-column="57" selection-end-line="120" selection-end-column="57" />
+        <state relative-caret-position="277">
+          <caret line="104" column="38" lean-forward="false" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
           <folding />
         </state>
       </provider>

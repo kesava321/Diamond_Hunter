@@ -1,59 +1,40 @@
 package Map;
 
+package com.neet.DiamondHunter.Main;
+
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+import javafx.scene.Group;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
+import com.neet.DiamondHunter.TileMap.TileMap;
 
 public class Main extends Application {
 
-  public static TileLayer FromFile (String fileName)
-  {
-      TileLayer layer = null;
-
-      ArrayList<ArrayList<Integer>> tempLayout = new ArrayList<>();
-
-      try(BufferReader br = new BufferReader(new FileReader(fileName)))
-      {
-            String currentLine;
-
-            while(currentLine=br.readLine()) != null)
-          {
-              if (currentLine.isEmpty())
-                  continue;
-
-              ArrayList<Integer> row = new ArrayList<>();
-              String[] values = currentLine.trim(). split("");
-
-              for (String string :values)
-              {
-                  if(!string.isEmpty())
-                  {
-                      int id = Integer.parseInt(string);
-
-                      row.add(id);
-                  }
-              }
-
-              tempLayout.add(row)
-          }
-      }
-
-      catch(IOException e)
-      {
-
-
-      }
-      int width = tempLayout.get(0).size();
-      int height =
-      return layer
-  }
 
 
 
+    public class Mymap extends Application{
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+        @Override
+        public void start(Stage stage) throws Exception {
+            //create a border pane
+            Group root = new Group();
+	  /*  BorderPane  borderPane = new BorderPane();
+	    Scene scene = new Scene(borderPane);
+	 // load map
+ 		TileMap tileMap = new TileMap(16);
+ 		tileMap.loadTiles("/Tilesets/testtileset.gif");
+ 		Node mvwNode = tileMap.loadMap("/Maps/testmap.map");
+
+	 	borderPane.setCenter(tileMap);
+	    */
+
+            Scene scene = new Scene(root, 500, 500, Color.BLACK);
+            // load map
+            TileMap tileMap = new TileMap(16);
+            tileMap.loadTiles("/Tilesets/testtileset.gif");
+            tileMap.loadMap("/Maps/testmap.map");
 }
