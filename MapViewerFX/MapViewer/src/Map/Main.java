@@ -38,3 +38,23 @@ public class Main extends Application {
             tileMap.loadTiles("/Tilesets/testtileset.gif");
             tileMap.loadMap("/Maps/testmap.map");
 }
+        Rectangle r = new Rectangle(25,25,250,250);
+       r.setFill(Color.BLUE);
+       root.getChildren().add(r);
+
+
+       stage.setTitle("JavaFX Scene Graph Demo");
+       stage.setScene(scene);
+       stage.show();
+
+    }
+
+    @Override public void stop() throws Exception {
+        //release resources when the application closes
+
+    }
+
+    public static void main(String[] args) {
+        Application.launch(args);
+    }
+}
