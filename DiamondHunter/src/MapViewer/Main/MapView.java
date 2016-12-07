@@ -26,12 +26,15 @@ public class MapView extends Application {
     public static TileGrid loadMap(String mapName){
         TileGrid grid = new TileGrid();
         try{
+            BufferedReader br = new BufferedReader(new FileReader(mapName));
+            String data = br.readLine();
 
         } catch (Exception e){
             e.printStackTrace();
         }
         for (int i=0; i<grid.getTileWidth();i++){
             for (int j=0; j< grid.getTilesHight(); j++){
+                grid.SetTile(i, j, getTileType(data.substring(i* grid.getTileHight + j)));
 
             }
         }
