@@ -5,6 +5,7 @@ package MapViewer.Main;/**
 import javafx.application.Application;
 import javafx.stage.Stage;
 
+
 import java.awt.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -21,6 +22,22 @@ public class MapView extends Application {
     public void start(Stage primaryStage) {
 
     }
+
+    public static TileGrid loadMap(String mapName){
+        TileGrid grid = new TileGrid();
+        try{
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        for (int i=0; i<grid.getTileWidth();i++){
+            for (int j=0; j< grid.getTilesHight(); j++){
+
+            }
+        }
+        return grid
+    }
+
     /*
     public MapView (int width, int height)
     {
