@@ -2,14 +2,19 @@ package MapViewer.Main;/**
  * Created by Kesava on 04/12/2016.
  */
 
+import com.neet.DiamondHunter.Main.GamePanel;
+import com.neet.DiamondHunter.TileMap.Tile;
 import javafx.application.Application;
+import javafx.embed.swing.SwingFXUtils;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 
+import javax.imageio.ImageIO;
 import java.awt.*;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.awt.image.BufferedImage;
+import java.io.*;
 import java.util.ArrayList;
 
 public class MapView extends Application {
@@ -23,6 +28,21 @@ public class MapView extends Application {
 
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
     public static TileGrid loadMap(String mapName){
         TileGrid grid = new TileGrid();
         try{
@@ -40,6 +60,7 @@ public class MapView extends Application {
         }
         return grid
     }
+    */
 
     /*
     public MapView (int width, int height)
