@@ -1,15 +1,8 @@
 package Map;
 
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
-import javafx.stage.Stage;
-import javafx.scene.Group;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Rectangle;
-import TileMap.TileMap;
+import javax.swing.JFrame;
 
-public class Main extends Application {
+public class Main {
 
     public static void main(String[] args) {
         JFrame window = new JFrame("Diamond Hunter map viewer");
