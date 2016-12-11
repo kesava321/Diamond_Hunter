@@ -1,5 +1,5 @@
 package MapViewer.Main;
-
+/*
 import com.neet.DiamondHunter.TileMap.TileMap;
 import javafx.fxml.FXML;
 import javafx.scene.image.Image;
@@ -40,7 +40,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-
+/*
 public class Control extends Application {
     private TileMap tileMap;
 
@@ -68,6 +68,6 @@ public class Control extends Application {
         primaryStage.show();
     }
 }
-
+*/
 
 		
