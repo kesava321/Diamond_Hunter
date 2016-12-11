@@ -1,21 +1,20 @@
 package MapViewer.Main;/**
  * Created by Kesava on 04/12/2016.
  */
-
+/*
 import com.neet.DiamondHunter.Main.GamePanel;
 import com.neet.DiamondHunter.TileMap.Tile;
-import javafx.application.Application;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
-import javafx.stage.Stage;
-
-
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.ArrayList;
+*/
+import javafx.application.Application;
+import javafx.stage.Stage;
 
 public class MapView extends Application {
 
@@ -27,7 +26,7 @@ public class MapView extends Application {
     public void start(Stage primaryStage) {
 
     }
-
+/*
 
     public class TileMap {
 
@@ -298,7 +297,7 @@ public class MapView extends Application {
 
                 }
 
-
+*/
 
 
 
@@ -393,4 +392,4 @@ public class MapView extends Application {
         super.paintComponent(g);
         layer.DrawLayer(g);
     }
-*/}}}
+*//*}}}*/

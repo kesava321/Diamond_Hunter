@@ -5,7 +5,7 @@ import javafx.fxml.FXML;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
-/*
+
 public class Control {
 
     Control mp = new Control ();
@@ -31,7 +31,7 @@ public class Control {
 
 
 
-}*/
+}
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -49,14 +49,14 @@ public class Control extends Application {
     }
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setTitle("Map Viewer");
         Button btn = new Button();
-        btn.setText("Say 'Hello World'");
+        btn.setText("Load Map'");
         btn.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                //System.out.println("Hello World!");
-                tileMap = new TileMap(16);
+                //System.out.println("Map Viewer");
+                tileMap = new TileMap(40);
                 tileMap.loadTiles("/Tilesets/testtileset.gif");
                 tileMap.loadMap("/Maps/testmap.map");
             }
