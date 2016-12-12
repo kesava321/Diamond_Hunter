@@ -9,6 +9,9 @@ import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.util.ArrayList;
 
+import com.neet.DiamondHunter.Entity.Diamond;
+import com.neet.DiamondHunter.Entity.Item;
+import com.neet.DiamondHunter.Entity.Sparkle;
 
 import MapViewer.Main.GamePanel;
 import MapViewer.Main.Data;
@@ -20,6 +23,9 @@ public class PlayState extends GameState {
 	
 	// tilemap
 	private TileMap tileMap;
+	
+	// items
+	private ArrayList<Item> items;
 	
 	// camera position
 	private int xsector;
@@ -41,6 +47,12 @@ public class PlayState extends GameState {
 	
 	public void init() {
 		
+		// create lists
+		items = new ArrayList<Item>();
+		
+		// fill lists
+				populateItems();
+		
 		// load map
 		tileMap = new TileMap(16);
 		tileMap.loadTiles("testtileset.gif");
@@ -57,6 +69,24 @@ public class PlayState extends GameState {
 		eventStart = true;
 		eventStart();
 	}
+	
+	private void populateItems() {
+		
+		/*Item item;
+		
+		item = new Item(tileMap);
+		item.setType(Item.AXE);
+		item.setTilePosition(26, 37);
+		items.add(item);
+		
+		item = new Item(tileMap);
+		item.setType(Item.BOAT);
+		item.setTilePosition(12, 4);
+		items.add(item);
+		*/
+	}
+	
+	
 	
 	public void update() {
 		
@@ -82,6 +112,10 @@ public class PlayState extends GameState {
 		g.setColor(java.awt.Color.BLACK);
 		for(int i = 0; i < boxes.size(); i++) {
 			g.fill(boxes.get(i));
+		}
+		// draw items
+		for(Item i : items) {
+			i.draw(g);
 		}
 		
 	}
