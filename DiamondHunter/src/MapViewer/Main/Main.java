@@ -41,6 +41,7 @@ public class Main extends Application {
             		gp.getChildren().add(view);
             		int a = x;
             		int b = y;
+            	
             		view.setOnMouseClicked(event -> {
             			Alert al = new Alert(AlertType.CONFIRMATION, "place " + 
             		    Control.getButton() + " at (" + a + ", " + b + ")?");
@@ -53,13 +54,14 @@ public class Main extends Application {
             					Control.setBoat(a, b);
             				}
             				
+            				
             			}
             		});
             	}
             	
             }
             root.setCenter(gp);
-            root.setRight(content);
+            root.setBottom(content);
             primaryStage.setScene(scene);
             primaryStage.show();
         } catch(Exception e) {
