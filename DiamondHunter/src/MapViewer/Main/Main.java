@@ -1,5 +1,6 @@
 package MapViewer.Main;
 import java.awt.image.BufferedImage;
+import java.util.Optional;
 
 import javafx.application.Application;
 import javafx.embed.swing.SwingFXUtils;
@@ -7,6 +8,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.ButtonType;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
@@ -35,6 +39,22 @@ public class Main extends Application {
             		view.setImage(i);
             		GridPane.setConstraints(view, y, x);
             		gp.getChildren().add(view);
+            		int a = x;
+            		int b = y;
+            		view.setOnMouseClicked(event -> {
+            			Alert al = new Alert(AlertType.CONFIRMATION, "place " + 
+            		    Control.getButton() + " at (" + a + ", " + b + ")");
+            			Optional<ButtonType> result = al.showAndWait();
+            			if (result.isPresent() && result.get() == ButtonType.OK) {
+            				
+            				if(Control.getButton() == "axe"){
+            					Control.setAxe(a,b);
+            				}else if(Control.getButton() == "boat"){
+            					Control.setBoat(a, b);
+            				}
+            				
+            			}
+            		});
             	}
             	
             }
