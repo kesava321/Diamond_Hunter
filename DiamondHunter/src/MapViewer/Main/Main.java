@@ -22,7 +22,7 @@ public class Main extends Application {
         try {
             BorderPane root = new BorderPane();
             Scene scene = new Scene(root);
-            //Parent content = FXMLLoader.load(getClass().getClassLoader().getResource("axeboat.fxml"));
+            Parent content = FXMLLoader.load(getClass().getClassLoader().getResource("axeboat.fxml"));
             //scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
             GridPane gp = new GridPane();
             TileMap map = new TileMap(16);
@@ -43,7 +43,7 @@ public class Main extends Application {
             		int b = y;
             		view.setOnMouseClicked(event -> {
             			Alert al = new Alert(AlertType.CONFIRMATION, "place " + 
-            		    Control.getButton() + " at (" + a + ", " + b + ")");
+            		    Control.getButton() + " at (" + a + ", " + b + ")?");
             			Optional<ButtonType> result = al.showAndWait();
             			if (result.isPresent() && result.get() == ButtonType.OK) {
             				
@@ -59,7 +59,7 @@ public class Main extends Application {
             	
             }
             root.setCenter(gp);
-
+            root.setRight(content);
             primaryStage.setScene(scene);
             primaryStage.show();
         } catch(Exception e) {
