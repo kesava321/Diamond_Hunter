@@ -18,7 +18,7 @@ public class Main extends Application {
         try {
             BorderPane root = new BorderPane();
             Scene scene = new Scene(root);
-            //Parent content = FXMLLoader.load(getClass().getClassLoader().getResource("mapviewer.fxml"));
+            //Parent content = FXMLLoader.load(getClass().getClassLoader().getResource("axeboat.fxml"));
             //scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
             GridPane gp = new GridPane();
             TileMap map = new TileMap(16);
