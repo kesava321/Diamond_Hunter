@@ -6,13 +6,13 @@
 <?import javafx.scene.layout.HBox?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MapViewer.Main.Control">
    <children>
       <BorderPane layoutX="200.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
       <HBox layoutX="246.0" layoutY="349.0" prefHeight="30.0" prefWidth="82.0">
          <children>
-            <Button mnemonicParsing="false" text="Axe" />
-            <Button mnemonicParsing="false" text="Boat" />
+            <Button fx:id="axeButton" mnemonicParsing="false" onAction="#onAxeButtonPressed" text="Axe" />
+            <Button fx:id="boatButton" mnemonicParsing="false" onAction="#onBoatButtonPressed" text="Boat" />
          </children>
       </HBox>
    </children>
