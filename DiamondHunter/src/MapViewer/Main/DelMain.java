@@ -14,7 +14,7 @@ public class DelMain extends Application {
         try {
             BorderPane root = new BorderPane();
             Scene scene = new Scene(root,400,400);
-            Parent content = FXMLLoader.load(getClass().getClassLoader().getResource("MapViewer/Map.fxml"));
+            Parent content = FXMLLoader.load(getClass().getClassLoader().getResource("mapviewer.fxml"));
             //scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
             root.setCenter(content);
 

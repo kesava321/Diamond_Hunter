@@ -146,11 +146,11 @@ public class TileMap {
 	public int getHeight() { return height; }
 	public int getNumRows() { return numRows; }
 	public int getNumCols() { return numCols; }
-	public int getType(int row, int col) {
+	public BufferedImage getImage(int row, int col) {
 		int rc = map[row][col];
 		int r = rc / numTilesAcross;
 		int c = rc % numTilesAcross;
-		return tiles[r][c].getType();
+		return tiles[r][c].getImage();
 	}
 	public int getIndex(int row, int col) {
 		return map[row][col];
